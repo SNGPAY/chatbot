@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 from typing import Annotated, TypedDict
 from langgraph.graph import StateGraph, START, END
 from langgraph.graph.message import add_messages
-from langchain_community.chat_models import ChatOllama
+from langchain_ollama import ChatOllama
 from langchain_core.tools import tool
 
 from langchain_core.messages import HumanMessage, AIMessage
