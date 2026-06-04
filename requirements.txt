@@ -1,4 +1,4 @@
 streamlit_option_menu
 langgraph
-
+langchain_community.chat_models
 langchain_community
